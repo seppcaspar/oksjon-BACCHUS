@@ -29,6 +29,22 @@ app.get("/auctions", (req, res) => {
   }
 });
 
+// API to fetch auctions by category
+app.get("/auctions/:category", (req, res) => {
+  try {
+    const category = req.params.category;
+    const auctions = getAuctionData();
+    const filteredAuctions = auctions.filter(
+      (item) => item.productCategory.toLowerCase() === category.toLowerCase()
+    );
+    res.json(filteredAuctions);
+  } catch (error) {
+    console.error("Error loading filtered auctions:", error);
+    res.status(500).json({ error: "Failed to load filtered auctions." });
+  }
+});
+
+
 // Start server
 app.listen(PORT, () => {
   console.log(`Server running on http://localhost:${PORT}`);
