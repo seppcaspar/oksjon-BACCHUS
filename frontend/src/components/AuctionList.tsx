@@ -17,8 +17,8 @@ interface AuctionListProps {
 const AuctionList: React.FC<AuctionListProps> = ({ category }) => {
   const [auctions, setAuctions] = useState<Auction[]>([]);
   const [error, setError] = useState<string | null>(null);
-  const [message, setMessage] = useState<string | null>(null);
-  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [currentPage, setCurrentPage] = useState(1);
+  const itemsPerPage = 10;
 
   useEffect(() => {
     const fetchAuctions = async () => {
@@ -26,55 +26,93 @@ const AuctionList: React.FC<AuctionListProps> = ({ category }) => {
         const url = category
           ? `http://localhost:4000/auctions/${category}`
           : "http://localhost:4000/auctions";
+
         const response = await axios.get(url);
-        setAuctions(response.data);
+        // Sort by soonest ending auction first
+        const sortedAuctions = response.data.sort(
+          (a: Auction, b: Auction) =>
+            new Date(a.biddingEndDate).getTime() - new Date(b.biddingEndDate).getTime()
+        );
+        setAuctions(sortedAuctions);
       } catch (err) {
-        console.error("Failed to fetch auctions:", err);
-        setError("Failed to load auctions. Please try again later.");
+        console.error("Error fetching auctions:", err);
+        setError("Could not load auctions. Please try again later.");
       }
     };
 
     fetchAuctions();
   }, [category]);
 
-  const handleBid = async (productId: string, bidderName: string, bidAmount: number) => {
-    setIsSubmitting(true);
+  const handleBidSubmit = async (productId: string, bidderName: string, bidAmount: number) => {
     try {
-      const response = await axios.post(`http://localhost:4000/bids`, {
+      await axios.post("http://localhost:4000/bids", {
         productId,
         bidderName,
         bidAmount,
       });
-      if (response.status === 200) {
-        setMessage("Bid successfully submitted!");
-        setTimeout(() => setMessage(null), 3000);
-      }
-    } catch (err) {
-      console.error("Bid submission failed:", err);
-      setError("Failed to submit bid. Please try again.");
-    } finally {
-      setIsSubmitting(false);
+      alert("Bid submitted successfully!");
+    } catch (error) {
+      console.error("Error submitting bid:", error);
+      alert("Failed to submit bid. Please try again.");
     }
+  };
+
+  // Pagination Logic
+  const indexOfLastAuction = currentPage * itemsPerPage;
+  const indexOfFirstAuction = indexOfLastAuction - itemsPerPage;
+  const currentAuctions = auctions.slice(indexOfFirstAuction, indexOfLastAuction);
+  const totalPages = Math.ceil(auctions.length / itemsPerPage);
+
+  const handlePageChange = (pageNumber: number) => {
+    setCurrentPage(pageNumber);
   };
 
   return (
     <div>
       {error && <p className="error-message">{error}</p>}
-      {message && <p className="success-message">{message}</p>}
-      {isSubmitting && <p className="loading-message">Submitting your bid...</p>}
 
-      {auctions.length === 0 && !error ? (
-        <p>No auctions available at the moment.</p>
-      ) : (
-        auctions.map((auction) => (
-          <div key={auction.productId} className="auction-item">
-            <h2>{auction.productName}</h2>
-            <p>Category: {auction.productCategory}</p>
-            <p>Ends at: {new Date(auction.biddingEndDate).toLocaleString()}</p>
-            <p>Description: {auction.productDescription}</p>
-            <BidForm productId={auction.productId} onBidSubmit={handleBid} />
-          </div>
-        ))
+      <div className="auction-container">
+        {currentAuctions.length > 0 ? (
+          currentAuctions.map((auction) => (
+            <div
+              key={auction.productId}
+              className={`auction-item ${
+                new Date(auction.biddingEndDate) < new Date() ? "expired" : ""
+              }`}
+            >
+              <h2>{auction.productName}</h2>
+              <p>Category: {auction.productCategory}</p>
+              <p>
+                Ends at:{" "}
+                {new Date(auction.biddingEndDate) > new Date()
+                  ? new Date(auction.biddingEndDate).toLocaleString()
+                  : "Expired"}
+              </p>
+              <p>{auction.productDescription}</p>
+              {new Date(auction.biddingEndDate) > new Date() && (
+                <BidForm productId={auction.productId} onBidSubmit={handleBidSubmit} />
+              )}
+            </div>
+          ))
+        ) : (
+          <p>No auctions available at the moment.</p>
+        )}
+      </div>
+
+      {/* Pagination Controls */}
+      {totalPages > 1 && (
+        <div className="pagination">
+          {Array.from({ length: totalPages }, (_, index) => (
+            <button
+              key={index}
+              className={`page-button ${currentPage === index + 1 ? "active" : ""}`}
+              onClick={() => handlePageChange(index + 1)}
+              aria-label={`Go to page ${index + 1}`}
+            >
+              {index + 1}
+            </button>
+          ))}
+        </div>
       )}
     </div>
   );
