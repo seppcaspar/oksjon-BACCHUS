@@ -1,0 +1,26 @@
+[
+  {
+    "productId": "1",
+    "bidderName": "aba",
+    "bidAmount": 11,
+    "bidTimestamp": "2025-03-20T22:30:24.473Z"
+  },
+  {
+    "productId": "1",
+    "bidderName": "qwe",
+    "bidAmount": 11,
+    "bidTimestamp": "2025-03-20T22:31:08.507Z"
+  },
+  {
+    "productId": "1",
+    "bidderName": "Caspar Sepp",
+    "bidAmount": 1000000,
+    "bidTimestamp": "2025-03-20T16:18:54.964Z"
+  },
+  {
+    "productId": "1",
+    "bidderName": "Laur",
+    "bidAmount": 100,
+    "bidTimestamp": "2025-03-20T16:19:15.203Z"
+  }
+]
