@@ -1,0 +1,387 @@
+[
+  {
+    "productId": "1",
+    "productName": "Vintage Wine",
+    "productDescription": "A unique and valuable vintage wine.",
+    "productCategory": "Decor",
+    "biddingEndDate": "2025-03-20T15:55:04.147647Z"
+  },
+  {
+    "productId": "2",
+    "productName": "Antique Vase",
+    "productDescription": "A unique and valuable antique vase.",
+    "productCategory": "Art",
+    "biddingEndDate": "2025-03-20T15:03:04.147647Z"
+  },
+  {
+    "productId": "3",
+    "productName": "Rare Book",
+    "productDescription": "A rare and valuable book from the 19th century.",
+    "productCategory": "Books",
+    "biddingEndDate": "2025-03-20T16:03:04.147647Z"
+  },
+  {
+    "productId": "4",
+    "productName": "Classic Car Model",
+    "productDescription": "A replica of a classic car model.",
+    "productCategory": "Vehicles",
+    "biddingEndDate": "2025-03-20T17:03:04.147647Z"
+  },
+  {
+    "productId": "5",
+    "productName": "Old Coin",
+    "productDescription": "A rare old coin from the medieval period.",
+    "productCategory": "Collectibles",
+    "biddingEndDate": "2025-03-20T18:03:04.147647Z"
+  },
+  {
+    "productId": "6",
+    "productName": "Ancient Statue",
+    "productDescription": "A statue from ancient Greece.",
+    "productCategory": "Art",
+    "biddingEndDate": "2025-03-20T19:03:04.147647Z"
+  },
+  {
+    "productId": "7",
+    "productName": "Renaissance Painting",
+    "productDescription": "A painting from the Renaissance period.",
+    "productCategory": "Art",
+    "biddingEndDate": "2025-03-20T20:03:04.147647Z"
+  },
+  {
+    "productId": "8",
+    "productName": "Vintage Clock",
+    "productDescription": "A vintage clock from the early 20th century.",
+    "productCategory": "Decor",
+    "biddingEndDate": "2025-03-20T21:03:04.147647Z"
+  },
+  {
+    "productId": "9",
+    "productName": "Handcrafted Jewelry",
+    "productDescription": "Handcrafted jewelry made with precious stones.",
+    "productCategory": "Jewelry",
+    "biddingEndDate": "2025-03-25T21:03:04.147647Z"
+  },
+  {
+    "productId": "10",
+    "productName": "Vintage Camera",
+    "productDescription": "A vintage camera from the 1950s.",
+    "productCategory": "Electronics",
+    "biddingEndDate": "2025-03-30T21:03:04.147647Z"
+  },
+  {
+    "productId": "11",
+    "productName": "Ancient Manuscript",
+    "productDescription": "An ancient manuscript with historical significance.",
+    "productCategory": "Books",
+    "biddingEndDate": "2025-04-01T21:03:04.147647Z"
+  },
+  {
+    "productId": "12",
+    "productName": "Vintage Watch",
+    "productDescription": "A vintage watch with a unique design.",
+    "productCategory": "Accessories",
+    "biddingEndDate": "2025-04-05T21:03:04.147647Z"
+  },
+  {
+    "productId": "13",
+    "productName": "Antique Furniture",
+    "productDescription": "A piece of antique furniture from the 18th century.",
+    "productCategory": "Furniture",
+    "biddingEndDate": "2025-04-10T21:03:04.147647Z"
+  },
+  {
+    "productId": "14",
+    "productName": "Rare Stamp",
+    "productDescription": "A rare stamp from the early 20th century.",
+    "productCategory": "Collectibles",
+    "biddingEndDate": "2025-04-15T21:03:04.147647Z"
+  },
+  {
+    "productId": "15",
+    "productName": "Vintage Bicycle",
+    "productDescription": "A vintage bicycle in excellent condition.",
+    "productCategory": "Vehicles",
+    "biddingEndDate": "2025-04-20T21:03:04.147647Z"
+  },
+  {
+    "productId": "16",
+    "productName": "Ancient Scroll",
+    "productDescription": "An ancient scroll with inscriptions.",
+    "productCategory": "Books",
+    "biddingEndDate": "2025-04-25T21:03:04.147647Z"
+  },
+  {
+    "productId": "17",
+    "productName": "Vintage Radio",
+    "productDescription": "A vintage radio from the 1940s.",
+    "productCategory": "Electronics",
+    "biddingEndDate": "2025-04-30T21:03:04.147647Z"
+  },
+  {
+    "productId": "18",
+    "productName": "Antique Mirror",
+    "productDescription": "An antique mirror with a decorative frame.",
+    "productCategory": "Decor",
+    "biddingEndDate": "2025-05-05T21:03:04.147647Z"
+  },
+  {
+    "productId": "19",
+    "productName": "Renaissance Sculpture",
+    "productDescription": "A sculpture from the Renaissance period.",
+    "productCategory": "Art",
+    "biddingEndDate": "2025-05-10T21:03:04.147647Z"
+  },
+  {
+    "productId": "20",
+    "productName": "Vintage Toy",
+    "productDescription": "A vintage toy in excellent condition.",
+    "productCategory": "Toys",
+    "biddingEndDate": "2025-05-15T21:03:04.147647Z"
+  },
+  {
+    "productId": "21",
+    "productName": "Antique Map",
+    "productDescription": "An antique map with historical significance.",
+    "productCategory": "Collectibles",
+    "biddingEndDate": "2025-05-20T21:03:04.147647Z"
+  },
+  {
+    "productId": "22",
+    "productName": "Vintage Sewing Machine",
+    "productDescription": "A vintage sewing machine from the early 20th century.",
+    "productCategory": "Tools",
+    "biddingEndDate": "2025-05-25T21:03:04.147647Z"
+  },
+  {
+    "productId": "23",
+    "productName": "Ancient Coin",
+    "productDescription": "An ancient coin with historical significance.",
+    "productCategory": "Collectibles",
+    "biddingEndDate": "2025-05-30T21:03:04.147647Z"
+  },
+  {
+    "productId": "24",
+    "productName": "Vintage Record Player",
+    "productDescription": "A vintage record player in excellent condition.",
+    "productCategory": "Electronics",
+    "biddingEndDate": "2025-06-05T21:03:04.147647Z"
+  },
+  {
+    "productId": "25",
+    "productName": "Antique Jewelry Box",
+    "productDescription": "An antique jewelry box with intricate designs.",
+    "productCategory": "Jewelry",
+    "biddingEndDate": "2025-06-10T21:03:04.147647Z"
+  },
+  {
+    "productId": "26",
+    "productName": "Vintage Typewriter",
+    "productDescription": "A vintage typewriter in working condition.",
+    "productCategory": "Tools",
+    "biddingEndDate": "2025-06-15T21:03:04.147647Z"
+  },
+  {
+    "productId": "27",
+    "productName": "Ancient Pottery",
+    "productDescription": "Ancient pottery with historical significance.",
+    "productCategory": "Art",
+    "biddingEndDate": "2025-06-20T21:03:04.147647Z"
+  },
+  {
+    "productId": "28",
+    "productName": "Vintage Suitcase",
+    "productDescription": "A vintage suitcase with a classic design.",
+    "productCategory": "Accessories",
+    "biddingEndDate": "2025-06-25T21:03:04.147647Z"
+  },
+  {
+    "productId": "29",
+    "productName": "Antique Lantern",
+    "productDescription": "An antique lantern in excellent condition.",
+    "productCategory": "Decor",
+    "biddingEndDate": "2025-06-30T21:03:04.147647Z"
+  },
+  {
+    "productId": "30",
+    "productName": "Vintage Guitar",
+    "productDescription": "A vintage guitar with a unique sound.",
+    "productCategory": "Musical Instruments",
+    "biddingEndDate": "2025-07-05T21:03:04.147647Z"
+  },
+  {
+    "productId": "31",
+    "productName": "Ancient Helmet",
+    "productDescription": "An ancient helmet with historical significance.",
+    "productCategory": "Collectibles",
+    "biddingEndDate": "2025-07-10T21:03:04.147647Z"
+  },
+  {
+    "productId": "32",
+    "productName": "Vintage Poster",
+    "productDescription": "A vintage poster in excellent condition.",
+    "productCategory": "Art",
+    "biddingEndDate": "2025-07-15T21:03:04.147647Z"
+  },
+  {
+    "productId": "33",
+    "productName": "Antique Globe",
+    "productDescription": "An antique globe with historical significance.",
+    "productCategory": "Decor",
+    "biddingEndDate": "2025-07-20T21:03:04.147647Z"
+  },
+  {
+    "productId": "34",
+    "productName": "Vintage Film Camera",
+    "productDescription": "A vintage film camera in excellent condition.",
+    "productCategory": "Electronics",
+    "biddingEndDate": "2025-07-25T21:03:04.147647Z"
+  },
+  {
+    "productId": "35",
+    "productName": "Ancient Sword",
+    "productDescription": "An ancient sword with historical significance.",
+    "productCategory": "Collectibles",
+    "biddingEndDate": "2025-07-30T21:03:04.147647Z"
+  },
+  {
+    "productId": "36",
+    "productName": "Vintage Motorcycle",
+    "productDescription": "A vintage motorcycle in excellent condition.",
+    "productCategory": "Vehicles",
+    "biddingEndDate": "2025-08-05T21:03:04.147647Z"
+  },
+  {
+    "productId": "37",
+    "productName": "Antique Painting",
+    "productDescription": "An antique painting with historical significance.",
+    "productCategory": "Art",
+    "biddingEndDate": "2025-08-10T21:03:04.147647Z"
+  },
+  {
+    "productId": "38",
+    "productName": "Vintage Piano",
+    "productDescription": "A vintage piano with a unique sound.",
+    "productCategory": "Musical Instruments",
+    "biddingEndDate": "2025-08-15T21:03:04.147647Z"
+  },
+  {
+    "productId": "39",
+    "productName": "Ancient Shield",
+    "productDescription": "An ancient shield with historical significance.",
+    "productCategory": "Collectibles",
+    "biddingEndDate": "2025-08-20T21:03:04.147647Z"
+  },
+  {
+    "productId": "40",
+    "productName": "Vintage Desk",
+    "productDescription": "A vintage desk with a classic design.",
+    "productCategory": "Furniture",
+    "biddingEndDate": "2025-08-25T21:03:04.147647Z"
+  },
+  {
+    "productId": "41",
+    "productName": "Antique Clock",
+    "productDescription": "An antique clock with historical significance.",
+    "productCategory": "Decor",
+    "biddingEndDate": "2025-08-30T21:03:04.147647Z"
+  },
+  {
+    "productId": "42",
+    "productName": "Vintage Telescope",
+    "productDescription": "A vintage telescope in excellent condition.",
+    "productCategory": "Tools",
+    "biddingEndDate": "2025-09-05T21:03:04.147647Z"
+  },
+  {
+    "productId": "43",
+    "productName": "Ancient Mask",
+    "productDescription": "An ancient mask with historical significance.",
+    "productCategory": "Collectibles",
+    "biddingEndDate": "2025-09-10T21:03:04.147647Z"
+  },
+  {
+    "productId": "44",
+    "productName": "Vintage Suit",
+    "productDescription": "A vintage suit in excellent condition.",
+    "productCategory": "Clothing",
+    "biddingEndDate": "2025-09-15T21:03:04.147647Z"
+  },
+  {
+    "productId": "45",
+    "productName": "Antique Lamp",
+    "productDescription": "An antique lamp with historical significance.",
+    "productCategory": "Decor",
+    "biddingEndDate": "2025-09-20T21:03:04.147647Z"
+  },
+  {
+    "productId": "46",
+    "productName": "Vintage Chess Set",
+    "productDescription": "A vintage chess set in excellent condition.",
+    "productCategory": "Toys",
+    "biddingEndDate": "2025-09-25T21:03:04.147647Z"
+  },
+  {
+    "productId": "47",
+    "productName": "Ancient Relic",
+    "productDescription": "An ancient relic with historical significance.",
+    "productCategory": "Collectibles",
+    "biddingEndDate": "2025-09-30T21:03:04.147647Z"
+  },
+  {
+    "productId": "48",
+    "productName": "Vintage Fan",
+    "productDescription": "A vintage fan in excellent condition.",
+    "productCategory": "Electronics",
+    "biddingEndDate": "2025-10-05T21:03:04.147647Z"
+  },
+  {
+    "productId": "49",
+    "productName": "Antique Tapestry",
+    "productDescription": "An antique tapestry with historical significance.",
+    "productCategory": "Art",
+    "biddingEndDate": "2025-10-10T21:03:04.147647Z"
+  },
+  {
+    "productId": "50",
+    "productName": "Vintage Gramophone",
+    "productDescription": "A vintage gramophone in excellent condition.",
+    "productCategory": "Electronics",
+    "biddingEndDate": "2025-10-15T21:03:04.147647Z"
+  },
+  {
+    "productId": "51",
+    "productName": "Ancient Tablet",
+    "productDescription": "An ancient tablet with historical significance.",
+    "productCategory": "Collectibles",
+    "biddingEndDate": "2025-10-20T21:03:04.147647Z"
+  },
+  {
+    "productId": "52",
+    "productName": "Vintage Microscope",
+    "productDescription": "A vintage microscope in excellent condition.",
+    "productCategory": "Tools",
+    "biddingEndDate": "2025-10-25T21:03:04.147647Z"
+  },
+  {
+    "productId": "53",
+    "productName": "Antique Sword",
+    "productDescription": "An antique sword with historical significance.",
+    "productCategory": "Collectibles",
+    "biddingEndDate": "2025-10-30T21:03:04.147647Z"
+  },
+  {
+    "productId": "54",
+    "productName": "Vintage Hat",
+    "productDescription": "A vintage hat in excellent condition.",
+    "productCategory": "Clothing",
+    "biddingEndDate": "2025-11-05T21:03:04.147647Z"
+  },
+  {
+    "productId": "55",
+    "productName": "Ancient Sculpture",
+    "productDescription": "An ancient sculpture with historical significance.",
+    "productCategory": "Art",
+    "biddingEndDate": "2025-11-10T21:03:04.147647Z"
+  }
+]
