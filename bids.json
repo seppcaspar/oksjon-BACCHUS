@@ -22,5 +22,11 @@
     "bidderName": "Laur",
     "bidAmount": 100,
     "bidTimestamp": "2025-03-20T16:19:15.203Z"
+  },
+  {
+    "productId": "10",
+    "bidderName": "capar",
+    "bidAmount": 18888,
+    "bidTimestamp": "2025-03-20T17:11:21.264Z"
   }
 ]
