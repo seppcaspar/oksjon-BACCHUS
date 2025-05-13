@@ -1,13 +1,14 @@
 ### Bacchus
 
-school project
+school project.
 The example picture and instructions can be found in reference_material folder
-# features:
+### features:
+```
 -category filter
 -users can bid on their name
 -bids are saved and can be checked later
 -auctions expire after some time and then dont show
-
+```
 
 ## Needed
 
